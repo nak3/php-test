@@ -1,12 +1,7 @@
 {
-    "repositories": [
-        {
-            "type": "pecl",
-            "url": "http://pecl.php.net/"
-        }
-    ],
     "require": {
-        "pecl-pecl.php.net/xdebug": "*",
-        "pecl-pecl/tidy": "*"
+        "ext-xdebug": "*",
+        "ext-tidy": "*"
     }
 }
+

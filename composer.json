@@ -1,12 +1,12 @@
 {
     "repositories": [
         {
-            "type": "pear",
-            "url": "http://pear.php.net/"
+            "type": "pecl",
+            "url": "http://pecl.php.net/"
         }
     ],
     "require": {
-        "pear-pear.php.net/xdebug": "*",
-        "pear-pear/tidy": "*"
+        "pecl-pecl.php.net/xdebug": "*",
+        "pecl-pecl/tidy": "*"
     }
 }

@@ -1,5 +1,12 @@
 {
+    "repositories": [
+        {
+            "type": "pear",
+            "url": "http://pear.php.net/"
+        }
+    ],
     "require": {
-        "xdebug": "*"
+        "pear-pear.php.net/xdebug": "*",
+        "pear-pear/tidy": "*"
     }
 }

@@ -10,6 +10,13 @@
         echo "<tr><td>$key</td><td>", $value, "</td></tr>\n";
     }
 ?>
+
+</p>
+
+<p>
+<?php
+	echo $_SERVER['HTTP_X_FORWARDED_FOR']
+?>
 </p>
 </body>
 </html>

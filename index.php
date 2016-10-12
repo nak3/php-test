@@ -4,18 +4,10 @@
 </head>
 <body>
 <h1>PHP is working</h1>
-<p>
-<?php
-    while(list($key, $value) = each($_SERVER)) {
-        echo "<tr><td>$key</td><td>", $value, "</td></tr>\n";
-    }
-?>
-
-</p>
 
 <p>
 <?php
-	echo $_SERVER['HTTP_X_FORWARDED_FOR']
+	echo "HTTP_X_FORWARDED_FOR: "  $_SERVER['HTTP_X_FORWARDED_FOR']
 ?>
 </p>
 </body>

@@ -7,7 +7,7 @@
 
 <p>
 <?php
-	echo "HTTP_X_FORWARDED_FOR: "  $_SERVER['HTTP_X_FORWARDED_FOR']
+	echo "HTTP_X_FORWARDED_FOR: ",  $_SERVER['HTTP_X_FORWARDED_FOR']
 ?>
 </p>
 </body>

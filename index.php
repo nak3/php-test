@@ -1,14 +1,16 @@
 <html>
-<head>
-	<title>Test PHP</title>
-</head>
-<body>
-<h1>PHP is working</h1>
-
-<p>
-<?php
-	echo "HTTP_X_FORWARDED_FOR: ",  $_SERVER['HTTP_X_FORWARDED_FOR']
-?>
-</p>
-</body>
+    <body>
+        <form action="test2.php" method="post" enctype="multipart/form-data">
+            Name: <input type="text" name="imageName" />
+            Image: <input type="file" name="image" />
+            <input type="submit" value="submit" />
+        </form>
+    </body>
 </html>
+
+<?php
+  echo $_POST['imageName'];
+  echo "<pre>";
+  echo var_dump($_FILES['image']);
+  echo "</pre>";
+?>

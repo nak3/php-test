@@ -1,6 +1,6 @@
 <html>
     <body>
-        <form action="test2.php" method="post" enctype="multipart/form-data">
+        <form action="index.php" method="post" enctype="multipart/form-data">
             Name: <input type="text" name="imageName" />
             Image: <input type="file" name="image" />
             <input type="submit" value="submit" />
